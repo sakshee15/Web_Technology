@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LAB1-CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Roboto", sans-serif
+        }
+    </style>
+</head>
+
+<body class="w3-light-grey">
+
+    <div class="video-background position-fixed">
+        <video autoplay loop muted style="width: 100%; height: auto;">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(227, 242, 253,0.6);">
+        <div class="container">
+            <a class="navbar-brand" href="#">Resume</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main_container" style="max-width:1400px;">
+        <div class="grid">
+            <div class="left_column">
+                <div>
+                    <br>
+                    <img class="img" src="./img.png">
+                    <div class="title">
+                        <h1 style="font-weight:bold;">Sakshee Agrawal</h1>
+                        <p style="font-style:italic">B.Tech - Computer Engineering</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="left_column_text">Contact</p>
+                        <div>
+                            <p><i class="fa fa-fw fa-phone"></i> +91 7083599490</p>
+                            <p><i class="fa fa-fw fa-envelope"></i> sakshee150503@gmail.com</p>
+                            <p><i class="fa fa-fw fa-linkedin-square"></i><a
+                                    href="https://www.linkedin.com/in/sakshee-agrawal-b600a4238/"
+                                    style="color:black;">linkedin.com/in/sakshee-agrawal</a></p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div>
+                    <p class="left_column_text">Language</p>
+                    <div class="inner-language">
+                        <ul class="horizontal-list">
+                            <li>English</li>
+                            <li>Hindi</li>
+                            <li>Marathi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right_column">
+                <div id="education" class="f_rc">
+                    <div>
+                        <h2 style="color:#0c60ce">Education</h2>
+                        <div class="container">
+                            <p class="name-txt">B.Tech - Computer Engineering</p>
+                            <p class="year-txt"><i class="fa fa-calendar fa-fw"></i>2021 - Present | CGPA : 8.98</p>
+                            <h6>Vishwakarma Institute of Technology</h6>
+                        </div>
+                        <hr>
+                        <div class="container">
+                            <p class="name-txt">HSC 12th</p>
+                            <p class="year-txt"><i class="fa fa-calendar fa-fw "></i>2019 - 2021 | Percentage :
+                                98.33%</p>
+                            <h8>Babasaheb Utangle Junior College of Science, Akola</h8>
+                        </div>
+                        <hr>
+                        <div class="container">
+                            <p class="name-txt">SSC 10th</p>
+                            <p class="year-txt"><i class="fa fa-calendar fa-fw"></i>2016 - 2019 | Percentage:
+                                93.4%</p>
+                            <h6>Shri Gajanan Maharaj English School,Shegaon</h6>
+                        </div>
+                    </div>
+                </div>
+                <div id="skills" class="s_rc">
+                    <div>
+                        <h2 style="color:#0c60ce;">Skills</h2>
+                        <div class="container">
+                            <p><b>Languages :</b> C, C++, Java, Python, R.</p>
+                            <hr>
+                            <p><b>Development :</b> HTML, CSS, Javascript, React, NodeJS, ExpressJS. </p>
+                            <hr>
+                            <p><b>Database :</b> SQL, PostgreSQL, MongoDB. </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="projects" class="t_rc">
+                    <div>
+                        <h2 style="color:#0c60ce;">Projects</h2>
+                        <div class="container">
+                            <p style=" font-size:20px;"><b>IEEE SB VIT Pune Website </b>| Group Project at IEEE VIT Pune</p>
+                            <p class="year-txt"><i class="fa fa-calendar fa-fw"></i>Oct 2022 - Apr 2023 </p>
+                            <p>Developed and enhanced a dynamic website, optimizing club outreach through streamlined event
+                                registration, quick confirmations, and digital ticketing, ensuring increased participant engagement.
+                                Conducted rigorous backend testing using Mocha and Chai frameworks for seamless functionality and
+                                reliability.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="container">
+                            <p style="font-size:20px;"><b>WebSocket Based Smart Attendance System </b> | College Group Project</p>
+                            <p class="year-txt"><i class="fa fa-calendar fa-fw"></i>Jan 2023 - May 2023</p>
+                            <p>Created an integrated IoT and web-based smart attendance system with real-time fingerprint verification
+                                via WebSocket, ensuring instant user validation, attendance recording, and transparent access for students
+                                and teachers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    var offset = $(hash).offset().top - ($(window).height() * 0.15);
+                    $('html, body').animate({
+                        scrollTop: offset
+                    }, {
+                        duration: 500,
+                        start: function () {
+                            window.location.hash = hash;
+                        },
+                        complete: function () {
+                            window.location.hash = hash;
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
